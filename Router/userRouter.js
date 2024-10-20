@@ -1,6 +1,6 @@
 const router=require("express").Router();
 const weatherCtrl=require('../Controller/weatherController');
 
-router.post("/create_rule",weatherCtrl.create_rule);
+router.get("/current_weather",weatherCtrl.current_weather);
 
 module.exports=router;

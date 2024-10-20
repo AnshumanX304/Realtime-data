@@ -104,7 +104,7 @@ async function updateWeatherData(weatherData) {
     await weatherDoc.save();
 }
 
-// app.use("/user",require('./Router/userRouter'))
+app.use("/user",require('./Router/userRouter'))
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
