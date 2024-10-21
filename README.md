@@ -16,8 +16,8 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
-   cd realtime-data
+   git clone https://github.com/AnshumanX304/Realtime-data.git
+   cd Realtime-data
    ```
 
 2. Install the dependencies:
@@ -69,45 +69,3 @@ This project uses several key dependencies:
 
 For a full list of dependencies and their versions, refer to the `package.json` file.
 
-## API Endpoints
-
-[Add your API endpoints and their descriptions here]
-
-## Database
-
-This project uses MongoDB as its database. Make sure you have MongoDB installed and running on your machine.
-
-## Authentication
-
-This application uses JWT (JSON Web Tokens) for authentication. Make sure to include the token in the Authorization header for protected routes.
-
-## Scheduled Tasks
-
-This application uses `node-cron` for scheduling tasks. Review the cron jobs in the application to understand what tasks are scheduled and when they run.
-
-## Error Handling
-
-[Describe your approach to error handling, including any custom error classes or middleware]
-
-## Testing
-
-Currently, there are no specified test scripts. To add tests:
-
-1. Choose a testing framework (e.g., Jest, Mocha)
-2. Install the testing framework: `npm install --save-dev jest`
-3. Update the `scripts` in `package.json`:
-   ```json
-   "scripts": {
-     "test": "jest"
-   }
-   ```
-4. Create test files with a `.test.js` extension
-5. Run tests with `npm test`
-
-## Contributing
-
-[Add your contributing guidelines here]
-
-## License
-
-This project is licensed under the ISC License.
