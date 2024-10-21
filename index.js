@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 const corsOrigin = {
-    origin: 'http://localhost:5173',
+    origin: 'http://localhost:5174',
     credentials: true,
     optionSuccessStatus: 200
 }
@@ -106,7 +106,7 @@ async function updateWeatherData(weatherData) {
 
 app.use("/user",require('./Router/userRouter'))
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 app.listen(PORT, () => {
     console.log(`Listening to port ${PORT}`);
 });
